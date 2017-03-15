@@ -1,0 +1,10 @@
+FlappyBird depends on the following software:
+-Python 2.7 and its built-in modules
+-PyAudio, this can be found at https://people.csail.mit.edu/hubert/pyaudio/ and can be installed using pip (however, you will require the libraries it depends on)
+-NumPy, this can be found at http://www.numpy.org/ and can be installed using pip
+-SoundAnalyse, this can can be found at https://github.com/ExCiteS/SLMPi/tree/master/SoundAnalyse-0.1.1 and can be installed using pip
+-PyGame, this can be found at https://www.pygame.org/wiki/GettingStarted and can be installed using pip
+
+It depends on the following hardware:
+-A USB microphone (you may have to toy around with the PYAUDIO_DEVICE_INDEX a bit to get it to work with your mic)
+-A MakeyMakey (but a keyboard with a long wire will do just as well)
