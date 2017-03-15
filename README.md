@@ -1,12 +1,16 @@
 # Flappy Bird (using Pygame)
 
 A clone of the popular app *Flappy Bird*, using Pygame.
-
-This code is discussed [here][codereview]. If you'd like to have your say about the code, leave an answer there!
+Credits 
 
 ## Playing the game
 
-You control the little bird. You can make it climb by pressing <kbd>the up arrow</kbd>, <kbd>Return</kbd>, <kbd>Space</kbd>, or clicking into the window. Don't crash into any pipes! For every pipe you pass without colliding, you get one point.
+You control the little bird. You can make it climb by pressing the up arrow on the MakeyMakey, or using your voice through a USB microphone. Don't crash into any pipes! For every pipe you pass without colliding, you get one point.
 
 
-[codereview]: http://codereview.stackexchange.com/questions/61477/teaching-a-programming-class-is-my-example-game-well-written
+## Requirements
+
+You will require the following python modules to run it on your system - it does not have a specific system dependency but you may find that the input device index changes on different systems:
+
+-SoundAnalyse
+-PyAudio
