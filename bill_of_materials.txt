@@ -7,4 +7,5 @@ FlappyBird depends on the following software:
 
 It depends on the following hardware:
 -A USB microphone (you may have to toy around with the PYAUDIO_DEVICE_INDEX a bit to get it to work with your mic)
--A MakeyMakey (but a keyboard with a long wire will do just as well)
+
+-If you don't have a MakeyMakey you can simply use a keyboard with a long wire)
