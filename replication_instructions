@@ -1,0 +1,13 @@
+Compiling Instruction:
+1. Install the necessary libraries on your Pi (sudo portaudio19-dev) 
+2. Install the necessary Python modules (pip install pyaudio, pip install pygame, pip install)
+3. Download/clone the GitHub repo
+4. Follow the instructions to run the program
+
+Running Instructions:
+1. Connect Raspberry Pi to a Display.
+2. Connect Makey Makey to  the Pi
+3. Connect Microphone to the Pi
+4. Run the Python code
+6. Enjoy the game
+7. Select us to win the Raspberry Pi competition!!
