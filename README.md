@@ -12,8 +12,8 @@ You control the little bird. You can make it climb by pressing the up arrow on t
 
 You will require the following python modules to run it on your system - it does not have a specific system dependency but you may find that the input device index changes on different systems:
 
--SoundAnalyse
--PyAudio
--PyGame
+-SoundAnalyse  
+-PyAudio  
+-PyGame  
 
 You can find a YouTube link to our project here: https://youtu.be/baFHbgkBdQI
