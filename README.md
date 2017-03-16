@@ -1,4 +1,4 @@
-# Flappy Bird (using Pygame)
+## CloudFly (using Pygame)
 
 A clone of the popular app *Flappy Bird*, using Pygame.
 Credits 
