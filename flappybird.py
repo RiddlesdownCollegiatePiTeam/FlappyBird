@@ -365,7 +365,7 @@ def main():
             # Read raw microphone data
             raw = stream.read(1024, exception_on_overflow=False)
             samples = numpy.fromstring(raw, dtype=numpy.int16)
-            if analyse.loudness(samples) > (-12.0):
+            if analyse.loudness(samples) > (-15.0):
                 bird.msec_to_climb = Bird.CLIMB_DURATION
             if paused:
                 continue  # don't draw anything
