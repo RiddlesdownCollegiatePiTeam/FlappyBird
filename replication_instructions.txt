@@ -1,12 +1,18 @@
-Compiling Instruction:
+Compiling / Installing Instructions:
 1. Install the necessary libraries on your Pi (sudo portaudio19-dev) 
 2. Install the necessary Python modules (pip install pyaudio, pip install pygame, pip install)
 3. Download/clone the GitHub repo
-4. Follow the instructions to run the program
+4. To run the program you may have to make a few edits, but the only changes you will likely have to make is changing the "PYAUDIO_DEVICE_INDEX" constant (which is currently set to 2, because on our test devices this was the device index, it may differ for your devices)
+5. You can also edit other features such as
+   - The font for the app (Python code - lines 331-333)
+   - The background image (Edit the "background.png" file in the "images" folder, along with the "WIN_WIDTH", and "WIN_HEIGHT" constants, which will correspond with your image)
+   - The "Bird" (Edit the "bird_wing_up.png" and "bird_wing_down.png" files in the "images" folder - take care to scale this down so that the bird fits through the pipes!)
+   - The "Pipes" (Edit the "pipe.png", "pipe_end.png" and "pipe_body.png" files in the "images" folder - make the dimensions of these similar to the current dimensions, to avoid having to edit the code.
+6. Follow the instructions to run the program
 
 Running Instructions:
-1. Connect Raspberry Pi to a Display.
-2. Connect Makey Makey to  the Pi
+1. Connect Raspberry Pi to a Display / VNC (Although we haven't tested this using a VNC client).
+2. Connect Makey Makey to the Pi
 3. Connect Microphone to the Pi
 4. Run the Python code
 6. Enjoy the game
